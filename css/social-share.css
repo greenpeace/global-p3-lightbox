@@ -1,0 +1,76 @@
+.social-share {
+	clear:both;
+}
+.social-share ul {
+	list-style-type:none;
+	padding:0;
+}
+.social-share li {
+	display:inline-block;
+	margin-right:.25em;
+}
+.social-share .action a {
+	display:block;
+	text-align:center;
+	width:50px;
+	height:25px;
+	padding:.5em;
+	padding:0;
+	margin-top:10px;
+	.rounded_all(2px);
+}
+.social-share-big ul {
+	list-style-type:none;
+	padding:0;
+    margin:auto;
+    position:absolute;
+}
+.social-share-big li {
+	display:inline-block;
+	margin-right:3%;
+}
+.social-share-big .action a {
+	display:block;
+	text-align:center;
+	width:92px;
+	height:auto;
+	padding:.5em;
+	padding:0;
+	margin-top:10px;
+	border-radius:4px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+}
+.social-share-big .action a span {
+	display:block;
+	padding: 0.5em;
+}
+.social-share-big .facebook a {
+	background: none;
+	background-color: #2B579A;
+	background-image: linear-gradient(to bottom, #4B77BA, #2B579A);
+	border: 1px solid #23365B;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.075);
+}
+.social-share-big .google a {
+	background: none;
+	background-color: #4F4F4F;
+	background-image: linear-gradient(to bottom, #6F6F6F, #4F4F4F);
+	border-color: 1px solid #3F3F3F;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.075);
+}
+.social-share-big .twitter a {
+	background: none;
+	background-color: #0098CD;
+	background-image: linear-gradient(to bottom, #20B8ED, #0098CD);
+	border-color: 1px solid #005B7A;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset, 0px 1px 0px rgba(255, 255, 255, 0.175);
+}
+
+/* IE specific */
+.lt-ie8 .social-share li {
+	display:inline;
+	margin-right:.5em;   
+}
